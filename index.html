@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1> JavaScript Asynchronous & Await </h1>
+        <h1 id="Books"></h1>
+        <script>
+            async function add(a,b) {
+                let response = await a + b
+                display(response)
+            }
+            function display(Hoodies) {
+                document.getElementById("Books").innerHTML = Hoodies;
+            }
+            add(9,48)
+        </script>
+    </body>
+</html>
